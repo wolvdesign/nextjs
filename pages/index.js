@@ -10,9 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          SÍTIO IDE
-        </h1>
+        <img src="/sitioide.svg" alt="Sítio ide" className={styles.logo} />
 
         <p className={styles.description}>
           Camping . Casamentos . Pesca{' '}
@@ -56,7 +54,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Criado Por{' '}
-          <img src="/vercel.svg" alt="Wolves Media" className={styles.logo} />
+          <img src="/wolves.svg" alt="Wolves Media" className={styles.logo} />
         </a>
       </footer>
     </div>
