@@ -10,7 +10,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/sitioide.svg" alt="Sítio ide" className={styles.logo} />
+        <a
+          <img src="/sitioide.svg" alt="Sítio ide" className={styles.logo} />
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        </a>
 
         <p className={styles.description}>
           Camping . Casamentos . Pesca{' '}
