@@ -56,7 +56,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Criado Por{' '}
-          <img src="/wolves.svg" alt="Wolves Media" className={styles.logo} />
+          <img src="/vercel.svg" alt="Wolves Media" className={styles.logo} />
         </a>
       </footer>
     </div>
